@@ -4,7 +4,7 @@ import {register, unregister} from '../../utils/battery';
 
 class BatteryContainer extends Component {
 	state = {
-		level: 0,
+		level: .55,
 		charging: false
 	};
 
